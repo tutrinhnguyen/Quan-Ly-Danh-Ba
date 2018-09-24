@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10.0"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@null"
+        android:padding="2dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:background="@android:color/background_light"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/nameContact"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" >
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/phone"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" >
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/email"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/region"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:id="@+id/rgRegion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioNorth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/north"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radioCentral"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/central"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radioSouth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/south"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/group"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnAddGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_add_group"
+                android:drawablePadding="15dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="@string/title_all" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/birthDay"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnBirthDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_action_go_to_today"
+                android:drawablePadding="15dp"
+                android:textSize="16sp"
+                android:gravity="left|center_vertical"
+                android:text="@string/sampleDate" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

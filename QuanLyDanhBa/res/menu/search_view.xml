@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.quanlythuoc.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_addContact"
+        android:icon="@drawable/ic_action_add_person"
+        android:title="@string/action_addContact"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/spinnerGroup"
+        android:title="@string/region"
+        app:actionLayout="@layout/spinner_layout"
+        app:showAsAction="always"/>
+
+</menu>

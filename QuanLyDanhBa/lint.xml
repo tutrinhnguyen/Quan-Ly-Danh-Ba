@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="SdCardPath">
+        <ignore path="src/htsi/com/quanlydanhba/db/ContactDatabaseOpenHelper.java" />
+        <ignore path="src/htsi/com/quanlydanhba/db/MyHelper.java" />
+    </issue>
+</lint>

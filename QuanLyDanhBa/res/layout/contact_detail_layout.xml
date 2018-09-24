@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10.0"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@null"
+        android:padding="2dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:background="@android:color/background_light"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/phone"
+                android:textColor="#FFFFFF" />
+
+            <include layout="@layout/contact_field_phone_layout" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/email"
+                android:textColor="#FFFFFF" />
+
+            <include layout="@layout/contact_field_mail_layout" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/region"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textRegion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/group"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bar_view"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/birthDay"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textBirthDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quản Lý Danh Bạ</string>
+    <string name="title_activity_main">Danh Bạ</string>
+    <string name="title_activity_add">Thêm Liên Hệ</string>
+    <string name="title_activity_edit">Sửa Liên Hệ</string>
+    <string name="title_all">Tất cả</string>
+    <string name="title_family">Gia đình</string>
+    <string name="title_colleague">Đồng nghiệp</string>
+    <string name="title_friend">Bạn bè</string>
+    <string name="title_partner">Làm ăn</string>
+    <string name="action_addContact">Thêm</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_saveContact">Lưu</string>
+    <string name="phone">Điện Thoại</string>
+    <string name="cellphone">Di động</string>
+    <string name="email">Email</string>
+    <string name="group">Nhóm</string>
+    <string name="region">Khu vực</string>
+    <string name="birthDay">Sinh nhật</string>
+    <string name="south">Miền Nam</string>
+    <string name="central">Miền Trung</string>
+    <string name="north">Miền Bắc</string>
+    <string name="nameContact">Họ tên</string>
+    <string name="sampleDate">01 &#8211; 01 &#8211; 2014</string>
+    
+    <string name="noName">Chưa nhập tên người dùng</string>
+
+</resources>
