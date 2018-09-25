@@ -3,6 +3,7 @@ package tiendung.com.quanlydanhba.obj;
 import tiendung.com.quanlydanhba.db.ContactDatabaseOpenHelper;
 import android.database.Cursor;
 
+
 public class Contact {
 	
 	private int id;
