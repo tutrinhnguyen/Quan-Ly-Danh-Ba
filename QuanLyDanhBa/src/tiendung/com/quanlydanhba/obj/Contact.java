@@ -3,11 +3,12 @@ package tiendung.com.quanlydanhba.obj;
 import tiendung.com.quanlydanhba.db.ContactDatabaseOpenHelper;
 import android.database.Cursor;
 
+
 public class Contact {
 	
-	private long id;
+	private int id;
 	private String name;
-	private String phone;
+	private int phone;
 	private String mail;
 	private String birthDay;
 	private String regionName;
@@ -15,10 +16,10 @@ public class Contact {
 	private String groupName;
 	private int[] groupId;
 	
-	public long getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getName() {
@@ -27,10 +28,10 @@ public class Contact {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPhone() {
+	public int getPhone() {
 		return phone;
 	}
-	public void setPhone(String phone) {
+	public void setPhone(int phone) {
 		this.phone = phone;
 	}
 	public String getMail() {
